@@ -1,53 +1,83 @@
 <!--this is the services page-->
 
-<!DOCTYPE html><!--This is same for all pages to work as pages-->
+<!DOCTYPE html>
+<!--This is same for all pages to work as pages-->
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Default_Template</title>
-<meta name="viewport" content="width=device-width, initial-scale">
-<link rel="stylesheet" href="css/main.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Default_Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
     <header><!--header is the same in all our pages--></header>
-    <main><!--here goes main body of the services page--></main>
+    <main>
+      <!--here goes main body of the services page-->
+      <!----this is a form---->
+
+      <section class="form">
+        <!----volunteer---->
+        <section class="volunteer">
+          <h2>Volunteer programs</h2>
+          <p>
+            Join us to make a difference—your volunteer support helps save lives
+            and protect the community.
+          </p>
+          <button class="small-button">JOIN TEAM</button>
+        </section>
+
+        <!----donation---->
+        <section class="donation">
+          <h2>Donate</h2>
+          <form>
+            <div class="name-form">
+              <label for="nameinput">Name</label>
+              <input
+                type="text"
+                id="nameinput"
+                name="Name"
+                placeholder="Firstname-Lastname"
+              />
+            </div>
+
+            <div class="payment-method">
+              <label for="method">Select payment method</label>
+              <select id="method" name="Payment method">
+                <option>Visa</option>
+                <option>Mastercard</option>
+              </select>
+            </div>
+
+            <div class="payment-form">
+              <label>Select amount</label>
+
+              <label>15$</label>
+              <input type="radio" name="amount" />
+
+              <label>50$</label>
+              <input type="radio" name="amount" />
+
+              <label>100$</label>
+              <input type="radio" name="amount" />
+            </div>
+
+            <div class="custom-amount">
+              <label for="insertamount">Custom amount</label>
+              <input
+                type="text"
+                id="insertamount"
+                name="Amount:"
+                placeholder="Enter amount $$"
+              />
+            </div>
+
+            <button type="submit">DONATE</button>
+          </form>
+        </section>
+      </section>
+      <!----this is end of a form---->
+    </main>
     <footer><!--footer is same in all pages--></footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body><!---->
+  </body>
+  <!---->
+</html>

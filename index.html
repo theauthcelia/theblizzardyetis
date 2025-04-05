@@ -1,53 +1,222 @@
 <!--this is the home page-->
 
-<!DOCTYPE html><!--This is same for all pages to work as pages-->
+<!DOCTYPE html>
+<!--This is same for all pages to work as pages-->
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Default_Template</title>
-<meta name="viewport" content="width=device-width, initial-scale">
-<link rel="stylesheet" href="css/main.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Default_Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
     <header><!--header is the same in all our pages--></header>
-    <main><!--here goes main body of the home page--></main>
+
+    <!-----------------------main body---------------------->
+    <main>
+      <h1>Avalanche & Hypothermia Safety in Kalmont</h1>
+      <p>
+        This guide is designed to help tourists, skiers, and climbers stay safe
+        while exploring Kalmont's wild winter terrain. Stay prepared and
+        informed before heading into the mountains.
+      </p>
+      <button class="big-button">Donate</button>
+      <!--this is the sumary part of homepage-->
+      <section class="body-article">
+        <article>
+          <img
+            src="./mountain_rescue_img/Group11.png"
+            alt="image 2 guards pull a red bag"
+            width="662"
+            height="501"
+          />
+          <h2>About The Blizzard Yetis</h2>
+          <p>
+            Meet the Blizzard Yetis—a team of expert rescuers dedicated to
+            mountain safety. Learn about our mission, history, and the people
+            behind the rescues.
+          </p>
+          <a href="about.html" class="link-button">View Details</a>
+        </article>
+
+        <article>
+          <img
+            src="./mountain_rescue_img/hp-hypothermia.png"
+            alt="image of a freezing hypothermia guy sleeping"
+            width="662"
+            height="501"
+          />
+          <h2>Hypothermia and what to know?</h2>
+          <p>
+            Hypothermia occurs when your body loses heat too quickly, causing a
+            dangerous drop in temperature. Learn how to prevent, recognize, and
+            treat it on our full guide. Stay safe in cold weather.
+          </p>
+          <a href="hypothermia.html" class="link-button">View Details</a>
+        </article>
+
+        <article>
+          <img
+            src="./mountain_rescue_img/hp-avalanche.png"
+            alt="image of avalange in home"
+            width="662"
+            height="501"
+          />
+          <h2>Avalanche and what to know?</h2>
+          <p>
+            Avalanches are deadly snow slides. Know the risks, warning signs,
+            and safety tips to stay safe. Learn more in our full guide.
+          </p>
+          <a href="avalanche.html" class="link-button">View Details</a>
+        </article>
+
+        <article>
+          <img
+            src="./mountain_rescue_img/hp-education.png"
+            alt="image of a guy wear red shirt"
+            width="662"
+            height="501"
+          />
+          <h2>Education</h2>
+          <p>
+            Our education section provides essential safety information to help
+            you stay safe in the mountains. Learn about Hypothermia, Avalanche
+            risks, and follow our Visitor Safety Guide for expert tips on
+            preparing for your trip. Stay informed and prepared!
+          </p>
+          <a href="education.html" class="link-button">View Details</a>
+        </article>
+
+        <article>
+          <img
+            src="./mountain_rescue_img/hp-services.png"
+            alt="image of officer saving people"
+            width="662"
+            height="501"
+          />
+          <h2>Learn about our services</h2>
+          <p>
+            We offer search and rescue, avalanche risk assessments, safety
+            education, emergency training, and volunteer opportunities to keep
+            the community safe in the mountains.
+          </p>
+          <a href="services.html" class="link-button">View Details</a>
+        </article>
+      </section>
+
+      <!---------this is the "news" section---------->
+      <section class="news-and-info">
+        <h2>News & Information</h2>
+        <article>
+          <img
+            src="./mountain_rescue_img/news1.png"
+            alt="news image"
+            width="459"
+            height="290"
+          />
+          <p>March 22, 2025</p>
+          <h3>Mountain Range Current Risks & Alerts</h3>
+          <p>
+            Avalanche risk is high due to heavy snowfall. Stay in safe zones;
+            avoid north-facing slopes and deep valleys. See tips for safety.
+          </p>
+        </article>
+
+        <article>
+          <p>March 10, 2025</p>
+          <img
+            src="./mountain_rescue_img/news2.png"
+            alt="news image"
+            width="459"
+            height="290"
+          />
+          <h3>Recent Rescue Operation: Successful Save</h3>
+          <p>
+            Hiker rescued from avalanche-prone area, now stable and recovering.
+          </p>
+        </article>
+
+        <article>
+          <p>March 20, 2025</p>
+          <img
+            src="./mountain_rescue_img/news3.png"
+            alt="news image"
+            width="459"
+            height="290"
+          />
+          <h3>Winter Safety Reminder: Hypothermia Awareness</h3>
+          <p>
+            Avalanche risk is high due to heavy snowfall. Stay in safe zones;
+            avoid north-facing slopes and deep valleys. See tips for safety.
+          </p>
+        </article>
+      </section>
+
+      <!--------------this is a form------------------>
+
+      <section class="form">
+        <!----volunteer---->
+        <section class="volunteer">
+          <h2>Volunteer programs</h2>
+          <p>
+            Join us to make a difference—your volunteer support helps save lives
+            and protect the community.
+          </p>
+          <button class="small-button">JOIN TEAM</button>
+        </section>
+
+        <!----donation---->
+        <section class="donation">
+          <h2>Donate</h2>
+          <form>
+            <div class="name-form">
+              <label for="nameinput">Name</label>
+              <input
+                type="text"
+                id="nameinput"
+                name="Name"
+                placeholder="Firstname-Lastname"
+              />
+            </div>
+
+            <div class="payment-method">
+              <label for="method">Select payment method</label>
+              <select id="method" name="Payment method">
+                <option>Visa</option>
+                <option>Mastercard</option>
+              </select>
+            </div>
+
+            <div class="payment-form">
+              <label>Select amount</label>
+
+              <label>15$</label>
+              <input type="radio" name="amount" />
+
+              <label>50$</label>
+              <input type="radio" name="amount" />
+
+              <label>100$</label>
+              <input type="radio" name="amount" />
+            </div>
+
+            <div class="custom-amount">
+              <label for="insertamount">Custom amount</label>
+              <input
+                type="text"
+                id="insertamount"
+                name="Amount:"
+                placeholder="Enter amount $$"
+              />
+            </div>
+
+            <button type="submit">DONATE</button>
+          </form>
+        </section>
+      </section>
+      <!--------------this is end of a form------------------>
+    </main>
     <footer><!--footer is same in all pages--></footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body><!---->
+  </body>
+  <!---->
+</html>
