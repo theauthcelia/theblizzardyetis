@@ -15,9 +15,10 @@ h1, h2, h3, p, a{
     a{color: #000;text-decoration: none;}
     a:hover{text-decoration-color: blue; color: blue;}
     img{
-        height: auto; 
-        max-width:100% ; min-width:50% ;
+       
     }
     header{}/*--this is the  top navigation we can ask James how to do---*/
-    section.hero{}
+    section.hero.index{ background-image: image();
+
+    }
     
