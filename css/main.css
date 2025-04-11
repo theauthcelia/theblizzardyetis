@@ -1,67 +1,110 @@
-body{
-    font-family: poppins, arial ,sans-serif ;
-    background-color: #FAFAFA; 
-    font-size: 16px;
+@import url(reset.css);
+
+body {
+  font-family: poppins, arial, sans-serif;
+  background-color: #fafafa;
+  font-size: 16px;
 }
-h1, h2, h3, p, a{
-    margin-top: 0; 
-    margin-bottom: 1.5rem}
-    p{ font-size: 1.125rem;}
-    h1{font-size: 4rem;}
-    h2{font-size: 4rem;
-    font-weight: bold;}
-    h3{font-size: 1.5;
-    font-weight: bold;}
-    a{color: blue;text-decoration: none;}
-    a:hover{text-decoration-color: blue; color: blue;}
-    img{
+h1,
+h2,
+h3,
+p,
+a {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+p {
+  font-size: 1.125rem;
+}
 <<<<<<< HEAD
-
-    }
-    header{}/*--this is the  top navigation we can ask James how to do---*/
-    section.hero{}
-
-    header{}/*--this is the  top navigation we can ask James how to do---*/
-    div.hero-banner{color:white;
-        background-color: rgba(30, 30, 30, 0.5);
-        padding: 0.5rem;
-        width: 60%;
-        margin-left: 2rem;
-        position: absolute;
-        bottom: 2rem;}
-        button.big-button{
-            width: 25rem;height: 5rem; padding:2rem; display: flex;justify-content: center;
-            background-color: #FFFCC0;
-
-        }
-    section.hero.index{ max-height: 60vh;
-        height: 60vh;
-        margin-bottom: 1rem;
-        background-image: url("../mountain_rescue_img/hp-hero.png");
-        background-repeat:no-repeat ;
-        background-size: cover;
-        position: relative;
-    
-
-    }
-
-
-
-    
->>>>>>> origin/main
-.info-graphic{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
-}
-.info-graphic-block{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 .info-graphic-block div{
     max-width: 40%;
     text-align: left;
     margin:  ;  
+=======
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5;
+  font-weight: bold;
+}
+a {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration-color: blue;
+  color: blue;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+} /*--this is the  top navigation we can ask James how to do---*/
+section.hero {
+}
+
+.text-block {
+  background: lightblue;
+  border: 2px solid black;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.image-block {
+  background: lightcoral;
+  border: 2px solid black;
+  width: 100%;
+  padding: 1rem;
+}
+
+header {
+} /*--this is the  top navigation we can ask James how to do---*/
+div.hero-banner {
+  color: white;
+  background-color: rgba(30, 30, 30, 0.5);
+  padding: 0.5rem;
+  width: 60%;
+  margin-left: 2rem;
+  position: absolute;
+  bottom: 2rem;
+}
+button.big-button {
+  width: 25rem;
+  height: 5rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  background-color: #fffcc0;
+}
+section.hero.index {
+  max-height: 60vh;
+  height: 60vh;
+  margin-bottom: 1rem;
+  background-image: url("../mountain_rescue_img/hp-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.info-graphic-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: yellowgreen;
+
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+>>>>>>> origin/main
 }
