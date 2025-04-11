@@ -1,0 +1,23 @@
+body{
+    font-family: poppins, arial ,sans-serif ;
+    background-color: #FAFAFA; 
+    font-size: 16px;
+}
+h1, h2, h3, p, a{
+    margin-top: 0; 
+    margin-bottom: 1.5rem}
+    p{ font-size: 1.125rem;}
+    h1{font-size: 4rem;}
+    h2{font-size: 4rem;
+    font-weight: bold;}
+    h3{font-size: 1.5;
+    font-weight: bold;}
+    a{color: #000;text-decoration: none;}
+    a:hover{text-decoration-color: blue; color: blue;}
+    img{
+        height: auto; 
+        max-width:100% ; min-width:50% ;
+    }
+    header{}/*--this is the  top navigation we can ask James how to do---*/
+    section.hero{}
+    
