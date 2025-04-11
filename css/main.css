@@ -12,13 +12,33 @@ h1, h2, h3, p, a{
     font-weight: bold;}
     h3{font-size: 1.5;
     font-weight: bold;}
-    a{color: #000;text-decoration: none;}
+    a{color: blue;text-decoration: none;}
     a:hover{text-decoration-color: blue; color: blue;}
     img{
        
     }
     header{}/*--this is the  top navigation we can ask James how to do---*/
-    section.hero.index{ background-image: image();
+    div.hero-banner{color:white;
+        background-color: rgba(30, 30, 30, 0.5);
+        padding: 0.5rem;
+        width: 60%;
+        margin-left: 2rem;
+        position: absolute;
+        bottom: 2rem;}
+        button.big-button{
+            width: 25rem;height: 5rem; padding:2rem; display: flex;justify-content: center;
+            background-color: #FFFCC0;
+
+        }
+    section.hero.index{ max-height: 60vh;
+        height: 60vh;
+        margin-bottom: 1rem;
+        background-image: url("../mountain_rescue_img/hp-hero.png");
+        background-repeat:no-repeat ;
+        background-size: cover;
+        position: relative;
+    
 
     }
+
     
