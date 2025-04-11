@@ -16,12 +16,6 @@ a {
 p {
   font-size: 1.125rem;
 }
-<<<<<<< HEAD
-.info-graphic-block div{
-    max-width: 40%;
-    text-align: left;
-    margin:  ;  
-=======
 h1 {
   font-size: 4rem;
 }
@@ -106,5 +100,4 @@ section.hero.index {
   width: 80%;
   margin: 0 auto;
   margin-bottom: 1rem;
->>>>>>> origin/main
 }
