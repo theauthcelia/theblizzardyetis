@@ -5,7 +5,7 @@ body {
   background-color: #fafafa;
   font-size: 16px;
 }
-<<<<<<< Updated upstream
+
 h1,
 h2,
 h3,
@@ -26,7 +26,7 @@ h1, h2, h3, p, a{
     a{color: blue;text-decoration: none;}
     a:hover{text-decoration-color: blue; color: blue;}
     img{
-<<<<<<< HEAD
+
 
     }
     header{}/*--this is the  top navigation we can ask James how to do---*/
@@ -55,12 +55,11 @@ h1, h2, h3, p, a{
     
 
     }
-<<<<<<< Updated upstream
 
 
 
     
->>>>>>> origin/main
+ origin/main
 .info-graphic{
     display: flex;
     flex-direction: column;
@@ -205,4 +204,4 @@ section.hero.index {
         background-size: cover;
         position: relative;
     }
->>>>>>> Stashed changes
+
