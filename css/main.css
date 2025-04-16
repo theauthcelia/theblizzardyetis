@@ -12,60 +12,81 @@ h3,
 p,
 a {
   margin-top: 0;
-  margin-bottom: 1.5rem;}
-=======
-h1, h2, h3, p, a{
-    margin-top: 0; 
-    margin-bottom: 1.5rem}
-    p{ font-size: 1.125rem;}
-    h1{font-size: 4rem;}
-    h2{font-size: 4rem;
-    font-weight: bold;}
-    h3{font-size: 1.5;
-    font-weight: bold;}
-    a{color: blue;text-decoration: none;}
-    a:hover{text-decoration-color: blue; color: blue;}
-    img{
+  margin-bottom: 1.5rem;
+}
+/*=======*/
+h1,
+h2,
+h3,
+p,
+a {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+p {
+  font-size: 1.125rem;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.5;
+  font-weight: bold;
+}
+a {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration-color: blue;
+  color: blue;
+}
+img {
+}
+header {
+} /*--this is the  top navigation we can ask James how to do---*/
+section.hero {
+}
 
+header {
+} /*--this is the  top navigation we can ask James how to do---*/
+div.hero-banner {
+  color: white;
+  background-color: rgba(30, 30, 30, 0.5);
+  padding: 0.5rem;
+  width: 60%;
+  margin-left: 2rem;
+  position: absolute;
+  bottom: 2rem;
+}
+button.big-button {
+  width: 25rem;
+  height: 5rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  background-color: #fffcc0;
+}
+section.hero.index {
+  max-height: 60vh;
+  height: 60vh;
+  margin-bottom: 1rem;
+  background-image: url("../mountain_rescue_img/hp-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
-    }
-    header{}/*--this is the  top navigation we can ask James how to do---*/
-    section.hero{}
+origin/main .info-graphic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
-    header{}/*--this is the  top navigation we can ask James how to do---*/
-    div.hero-banner{color:white;
-        background-color: rgba(30, 30, 30, 0.5);
-        padding: 0.5rem;
-        width: 60%;
-        margin-left: 2rem;
-        position: absolute;
-        bottom: 2rem;}
-        button.big-button{
-            width: 25rem;height: 5rem; padding:2rem; display: flex;justify-content: center;
-            background-color: #FFFCC0;
-
-        }
-    section.hero.index{ max-height: 60vh;
-        height: 60vh;
-        margin-bottom: 1rem;
-        background-image: url("../mountain_rescue_img/hp-hero.png");
-        background-repeat:no-repeat ;
-        background-size: cover;
-        position: relative;
-    
-
-    }
-
-
-
-    
- origin/main
-.info-graphic{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
->>>>>>> Stashed changes
+  /*>>>>>>>Stashed changes*/
 }
 p {
   font-size: 1.125rem;
@@ -102,6 +123,38 @@ header {
 section.hero {
 }
 
+/*this iz a form*/
+.form {
+  background-color: brown;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.form-block {
+  border: 5px solid #a0a0a0;
+  background: #fff;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+.form-block p {
+  max-width: 60ch;
+  text-align: center;
+}
+/*infographic content*/
+.info-graphic-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: yellowgreen;
+
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
 .text-block {
   background: lightblue;
   border: 2px solid black;
@@ -114,6 +167,10 @@ section.hero {
   border: 2px solid black;
   width: 100%;
   padding: 1rem;
+}
+.left-align {
+  display: flex;
+  justify-content: flex-end;
 }
 
 header {
@@ -145,63 +202,90 @@ section.hero.index {
   position: relative;
 }
 
-.info-graphic-block {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  background: yellowgreen;
-
-  width: 80%;
-  margin: 0 auto;
+/*============*/
+section.hero.about {
+  max-height: 60vh;
+  height: 60vh;
   margin-bottom: 1rem;
+  background-image: url("../mountain_rescue_img/ab_hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-=======
-    section.hero.about{ max-height: 60vh;
-        height: 60vh;
-        margin-bottom: 1rem;
-        background-image: url("../mountain_rescue_img/ab_hero.png");
-        background-repeat:no-repeat ;
-        background-size: cover;
-        position: relative;
-    }
-    section.hero.avalanche{ max-height: 60vh;
-        height: 60vh;
-        margin-bottom: 1rem;
-        background-image: url("../mountain_rescue_img/aval-hero.png");
-        background-repeat:no-repeat ;
-        background-size: cover;
-        position: relative;
-    }
-    section.hero.hypothermia{ max-height: 60vh;
-        height: 60vh;
-        margin-bottom: 1rem;
-        background-image: url("../mountain_rescue_img/hy-hero.png");
-        background-repeat:no-repeat ;
-        background-size: cover;
-        position: relative;
-    }
-    section.hero.education{ max-height: 60vh;
-        height: 60vh;
-        margin-bottom: 1rem;
-        background-image: url("../mountain_rescue_img/ed-hero.png");
-        background-repeat:no-repeat ;
-        background-size: cover;
-        position: relative;
-    }
-    section.hero.services{ max-height: 60vh;
-        height: 60vh;
-        margin-bottom: 1rem;
-        background-image: url("../mountain_rescue_img/sv_hero.png");
-        background-repeat:no-repeat ;
-        background-size: cover;
-        position: relative;
-    }
-    section.hero.visitor-safety{ max-height: 60vh;
-        height: 60vh;
-        margin-bottom: 1rem;
-        background-image: url("../mountain_rescue_img/vs_hero.png");
-        background-repeat:no-repeat ;
-        background-size: cover;
-        position: relative;
-    }
+section.hero.avalanche {
+  max-height: 60vh;
+  height: 60vh;
+  margin-bottom: 1rem;
+  background-image: url("../mountain_rescue_img/aval-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+section.hero.hypothermia {
+  max-height: 60vh;
+  height: 60vh;
+  margin-bottom: 1rem;
+  background-image: url("../mountain_rescue_img/hy-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+section.hero.education {
+  max-height: 60vh;
+  height: 60vh;
+  margin-bottom: 1rem;
+  background-image: url("../mountain_rescue_img/ed-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+section.hero.services {
+  max-height: 60vh;
+  height: 60vh;
+  margin-bottom: 1rem;
+  background-image: url("../mountain_rescue_img/sv_hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+section.hero.visitor-safety {
+  max-height: 60vh;
+  height: 60vh;
+  margin-bottom: 1rem;
+  background-image: url("../mountain_rescue_img/vs_hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
+/*the team members code*/
+.team {
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.teams-block {
+  background-color: burlywood;
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  background-color: aqua;
+  padding: 0 1rem;
+}
+.team-member img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-width: 100%;
+}
