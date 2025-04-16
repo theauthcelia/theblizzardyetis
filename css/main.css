@@ -46,6 +46,8 @@ a:hover {
   color: blue;
 }
 img {
+  max-width: 100%;
+  height: auto;
 }
 header {
 } /*--this is the  top navigation we can ask James how to do---*/
@@ -120,7 +122,70 @@ img {
 
 header {
 } /*--this is the  top navigation we can ask James how to do---*/
-section.hero {
+/*============*/
+section.hero.about {
+  max-height: 60vh;
+  height: 60vh;
+  margin-bottom: 1rem;
+  background-image: url("../mountain_rescue_img/ab_hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+section.hero.avalanche {
+  max-height: 60vh;
+  height: 60vh;
+  margin-bottom: 1rem;
+  background-image: url("../mountain_rescue_img/aval-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+section.hero.hypothermia {
+  max-height: 60vh;
+  height: 60vh;
+  margin-bottom: 1rem;
+  background-image: url("../mountain_rescue_img/hy-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+section.hero.education {
+  max-height: 60vh;
+  height: 60vh;
+  margin-bottom: 1rem;
+  background-image: url("../mountain_rescue_img/ed-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+section.hero.services {
+  max-height: 60vh;
+  height: 60vh;
+  margin-bottom: 1rem;
+  background-image: url("../mountain_rescue_img/sv_hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+section.hero.visitor-safety {
+  max-height: 60vh;
+  height: 60vh;
+  margin-bottom: 1rem;
+  background-image: url("../mountain_rescue_img/vs_hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+main {
+  background-color: bisque;
+  margin: 0 auto;
+}
+main h2,
+p,
+h3 {
+  padding: 0 5rem;
 }
 
 /*this iz a form*/
@@ -197,62 +262,6 @@ section.hero.index {
   height: 60vh;
   margin-bottom: 1rem;
   background-image: url("../mountain_rescue_img/hp-hero.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-/*============*/
-section.hero.about {
-  max-height: 60vh;
-  height: 60vh;
-  margin-bottom: 1rem;
-  background-image: url("../mountain_rescue_img/ab_hero.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-section.hero.avalanche {
-  max-height: 60vh;
-  height: 60vh;
-  margin-bottom: 1rem;
-  background-image: url("../mountain_rescue_img/aval-hero.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-section.hero.hypothermia {
-  max-height: 60vh;
-  height: 60vh;
-  margin-bottom: 1rem;
-  background-image: url("../mountain_rescue_img/hy-hero.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-section.hero.education {
-  max-height: 60vh;
-  height: 60vh;
-  margin-bottom: 1rem;
-  background-image: url("../mountain_rescue_img/ed-hero.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-section.hero.services {
-  max-height: 60vh;
-  height: 60vh;
-  margin-bottom: 1rem;
-  background-image: url("../mountain_rescue_img/sv_hero.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-section.hero.visitor-safety {
-  max-height: 60vh;
-  height: 60vh;
-  margin-bottom: 1rem;
-  background-image: url("../mountain_rescue_img/vs_hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
