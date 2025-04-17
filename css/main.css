@@ -188,6 +188,16 @@ h3 {
   padding: 0 5rem;
 }
 
+main {
+  background-color: bisque;
+  margin: 0 auto;
+}
+main h2,
+p,
+h3 {
+  padding: 0 5rem;
+}
+
 /*this iz a form*/
 .form {
   background-color: brown;
