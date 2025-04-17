@@ -50,12 +50,74 @@ img {
   height: auto;
 }
 header {
-} /*--this is the  top navigation we can ask James how to do---*/
-section.hero {
+  background-color: #1831cb;
+  color: white;
+  position: fixed;
+  width: 100vw;
+  z-index: 50;
+}
+section.upper {
+  display: inline-flex;
+  padding: 0.7rem 10rem 0.7rem 11rem;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+section.lower {
+  background-color: #fff;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  overflow: hidden;
+  color: #000;
+}
+.navbar a {
+  font-size: 16px;
+  color: blue;
+
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.subnav {
+  overflow: hidden;
+}
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.navbar a:hover,
+.subnav:hover .subnavbtn {
+  background-color: #1831cb;
+  color: #fff;
+}
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  z-index: 1;
+}
+.subnav-content a {
+  float: left;
+  color: black;
+  text-decoration: none;
+}
+.subnav-content a:hover {
+  background-color: #eee;
+  color: blue;
+}
+.subnav:hover .subnav-content {
+  display: block;
 }
 
-header {
-} /*--this is the  top navigation we can ask James how to do---*/
 div.hero-banner {
   color: white;
   background-color: rgba(30, 30, 30, 0.5);
