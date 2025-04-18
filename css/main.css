@@ -9,8 +9,7 @@ body {
 h1,
 h2,
 h3,
-p,
-a {
+p {
   margin-top: 0;
   margin-bottom: 1.5rem;
 }
@@ -26,7 +25,7 @@ h2 {
   font-weight: bold;
 }
 h3 {
-  font-size: 1.5;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 a {
@@ -68,10 +67,12 @@ section.lower {
   padding: 14px 16px;
   display: inline-flex;
   justify-content: flex-start;
+  border: 2px solid goldenrod;
 }
 .navbar a {
   font-size: 16px;
   color: black;
+  border: 1px solid purple;
 
   padding: 14px 16px;
   text-decoration: none;
@@ -115,8 +116,47 @@ section.lower {
 .subnav:hover .subnav-content {
   display: block;
 }
+
+/* BUTTON STYLES */
+
 button {
   display: inline-flex;
+}
+
+button.big-button {
+  width: 25rem;
+  height: 5rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  background-color: #fffcc0;
+}
+
+button.big-button {
+  width: 25rem;
+  height: 5rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  background-color: #fffcc0;
+}
+
+.button-big {
+  background: hotpink;
+}
+
+.button-donate {
+  background: lightblue;
+  width: 10rem;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border: none;
+  text-transform: uppercase;
+}
+.button-donate:hover {
+  background: hotpink;
+  color: white;
 }
 
 div.hero-banner {
@@ -128,14 +168,7 @@ div.hero-banner {
   position: absolute;
   bottom: 2rem;
 }
-button.big-button {
-  width: 25rem;
-  height: 5rem;
-  padding: 2rem;
-  display: flex;
-  justify-content: center;
-  background-color: #fffcc0;
-}
+
 section.hero.index {
   max-height: 60vh;
   height: 60vh;
@@ -146,11 +179,6 @@ section.hero.index {
   position: relative;
 }
 
-origin/main .info-graphic {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
 p {
   font-size: 1.125rem;
 }
@@ -161,7 +189,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 a {
@@ -244,7 +272,7 @@ section.card-menu {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1 rem;
+  padding: 1rem;
   margin-bottom: 1rem;
 }
 .card.response {
@@ -259,7 +287,7 @@ section.card-menu {
   background-size: cover;
   position: relative;
 }
-.card-experts {
+.card.experts {
   background-image: url("../mountain_rescue_img/expert.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -308,54 +336,6 @@ h3 {
   text-align: center;
 }
 
-<<<<<<< HEAD
-/* the very form*/
-
-label {
-  background-color: burlywood;
-  display: block;
-  margin-top: 0;
-}
-.payment-form label {
-  background-color: cornflowerblue;
-  display: block;
-}
-input {
-  width: 95%;
-  padding: 0.5rem;
-  border: 1px solid #a0a0a0;
-  background: #e7e7e7;
-}
-select {
-  width: 100%;
-  height: 2rem;
-  border: 1px solid #a0a0a0;
-  background: #e7e7e7;
-}
-.select-feild {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-.select-block label {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-input[type="radio"] {
-  appearance: none;
-  width: 100%;
-  height: 100%;
-  background-color: transparent;
-  cursor: pointer;
-  border-color: transparent;
-}
-
-.select-block input[type="radio"]:checked {
-  background-color: #d70303;
-  color: white;
-}
-=======
 #nameinput {
   border: 2px solid pink;
   background: yellowgreen;
@@ -364,7 +344,6 @@ input[type="radio"] {
   font-size: 2rem;
 }
 
->>>>>>> origin/main
 /*infographic content*/
 .info-graphic-block {
   display: flex;
@@ -404,14 +383,7 @@ div.hero-banner {
   position: absolute;
   bottom: 2rem;
 }
-button.big-button {
-  width: 25rem;
-  height: 5rem;
-  padding: 2rem;
-  display: flex;
-  justify-content: center;
-  background-color: #fffcc0;
-}
+
 section.hero.index {
   max-height: 60vh;
   height: 60vh;
@@ -454,102 +426,9 @@ section.hero.index {
   max-width: 100%;
 }
 
-<<<<<<< HEAD
-/*footer css------------*/
-footer {
-  color: white;
-  background-image: url(../mountain_rescue_img/footer.png);
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 3rem;
-  height: 20rem;
-}
-footer a {
-  color: white;
-}
-footer a:hover {
-  color: rgb(126, 117, 242);
-}
-/*right-box style*/
-.footer-right-box {
-  background-color: #033fd7;
-  width: 100%;
-  padding-left: 5rem;
-  height: 100%;
-}
-.footer-right-box h3 {
-  padding: 0;
-  margin: 0;
-}
-.footer-right-box a {
-  text-decoration: underline;
-}
-.right-wrapper {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.right-items {
-  background-color: #4d8ac8;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 0.7rem;
-}
-
-/*left-box style*/
-.footer-left-box {
-  background-color: #a0a0a0;
-  width: 100%;
-  height: 100%;
-  text-align: right;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-end;
-  padding-right: 5rem;
-}
-.leftdown {
-  background-color: yellow;
-  display: flex;
-  flex-direction: column;
-  height: 30%;
-  align-items: end;
-  justify-content: flex-end;
-}
-.leftup {
-  background-color: green;
-  display: flex;
-  flex-direction: column;
-  height: 70%;
-  align-items: end;
-  justify-content: space-between;
-}
-.footer-left-box ul {
-  background-color: #d70303;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  gap: 2.813rem;
-}
-
-.horizon-link {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: end;
-  justify-content: end;
-  gap: 2.813rem;
-=======
 /* Weather Styles */
 
 .weather-forecast {
   border: 10px solid yellowgreen;
   padding: 1rem;
->>>>>>> origin/main
 }
