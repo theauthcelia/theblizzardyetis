@@ -50,17 +50,15 @@ img {
   height: auto;
 }
 header {
-  background-color: #1831cb;
-  color: white;
-  position: relative;
   width: 100vw;
   z-index: 50;
 }
 section.upper {
-  display: inline-flex;
-  padding: 0.7rem 10rem 0.7rem 11rem;
-  justify-content: flex-end;
-  align-items: flex-start;
+  background-color: #1831cb;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 section.lower {
   background-color: #fff;
