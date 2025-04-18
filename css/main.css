@@ -10,8 +10,7 @@ body {
 h1,
 h2,
 h3,
-p,
-a {
+p {
   margin-top: 0;
   margin-bottom: 1.5rem;
 }
@@ -26,7 +25,7 @@ h2 {
   font-weight: bold;
 }
 h3 {
-  font-size: 1.5;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 a {
@@ -65,10 +64,12 @@ section.lower {
   padding: 14px 16px;
   display: inline-flex;
   justify-content: flex-start;
+  border: 2px solid goldenrod;
 }
 .navbar a {
   font-size: 16px;
   color: black;
+  border: 1px solid purple;
 
   padding: 14px 16px;
   text-decoration: none;
@@ -112,10 +113,55 @@ section.lower {
 .subnav:hover .subnav-content {
   display: block;
 }
+
+/* BUTTON STYLES */
+
 button {
   display: inline-flex;
 }
 
+button.big-button {
+  width: 25rem;
+  height: 5rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  background-color: #fffcc0;
+}
+
+button.big-button {
+  width: 25rem;
+  height: 5rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  background-color: #fffcc0;
+}
+
+.button-big {
+  background: hotpink;
+}
+
+.button-donate {
+  background: lightblue;
+  width: 10rem;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border: none;
+  text-transform: uppercase;
+}
+.button-donate:hover {
+  background: hotpink;
+  color: white;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* Heros */
 div.hero-banner {
   color: white;
   background-color: rgba(30, 30, 30, 0.5);
@@ -125,14 +171,7 @@ div.hero-banner {
   position: absolute;
   bottom: 2rem;
 }
-button.big-button {
-  width: 25rem;
-  height: 5rem;
-  padding: 2rem;
-  display: flex;
-  justify-content: center;
-  background-color: #fffcc0;
-}
+
 section.hero.index {
   max-height: 60vh;
   height: 60vh;
@@ -141,43 +180,6 @@ section.hero.index {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
-
-origin/main .info-graphic {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-
-  /*>>>>>>>Stashed changes*/
-}
-p {
-  font-size: 1.125rem;
-}
-h1 {
-  font-size: 4rem;
-}
-h2 {
-  font-size: 4rem;
-  font-weight: bold;
-}
-
-h3 {
-  font-size: 1.5;
-  font-weight: bold;
-}
-a {
-  color: blue;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration-color: blue;
-  color: blue;
-}
-
-/* Responsive images */
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 section.hero.about {
@@ -234,6 +236,8 @@ section.hero.visitor-safety {
   background-size: cover;
   position: relative;
 }
+
+/* cards */
 section.card-menu {
   display: flex;
   flex-direction: row;
@@ -241,13 +245,13 @@ section.card-menu {
 }
 .card {
   width: 40%;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1 rem;
+  padding: 1rem;
   margin-bottom: 1rem;
+  margin-right: 1rem;
 }
 .card.response {
   background-image: url("../mountain_rescue_img/response.png");
@@ -261,7 +265,7 @@ section.card-menu {
   background-size: cover;
   position: relative;
 }
-.card-experts {
+.card.experts {
   background-image: url("../mountain_rescue_img/expert.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -287,27 +291,6 @@ p,
 h3 {
   padding: 0 5rem;
 }
-
-/*this iz a form*/
-.form {
-  background-color: brown;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-.form-block {
-  border: 5px solid #a0a0a0;
-  background: #fff;
-  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
-  display: flex;
-  justify-content: center;
-  width: 40%;
-}
-.form-block p {
-  max-width: 60ch;
-  text-align: center;
-}
 /*infographic content*/
 .info-graphic-block {
   display: flex;
@@ -326,6 +309,10 @@ h3 {
   width: 100%;
   padding: 1rem;
   margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .image-block {
   background: lightcoral;
@@ -337,34 +324,6 @@ h3 {
   display: flex;
   justify-content: flex-end;
 }
-
-div.hero-banner {
-  color: white;
-  background-color: rgba(30, 30, 30, 0.5);
-  padding: 0.5rem;
-  width: 60%;
-  margin-left: 2rem;
-  position: absolute;
-  bottom: 2rem;
-}
-button.big-button {
-  width: 25rem;
-  height: 5rem;
-  padding: 2rem;
-  display: flex;
-  justify-content: center;
-  background-color: #fffcc0;
-}
-section.hero.index {
-  max-height: 60vh;
-  height: 60vh;
-  margin-bottom: 1rem;
-  background-image: url("../mountain_rescue_img/hp-hero.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 /*the team members code*/
 .team {
   background-color: cadetblue;
@@ -395,4 +354,61 @@ section.hero.index {
   height: auto;
   object-fit: contain;
   max-width: 100%;
+}
+article {
+  display: flex;
+  flex-direction: row;
+}
+.postcards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.postcard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/*News*/
+.news-and-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.news-article {
+  display: flex;
+  flex-direction: column;
+  background: lightcoral;
+  border: 2px solid black;
+  width: 100%;
+  padding: 1rem;
+}
+
+/*this iz a form*/
+.form {
+  background-color: brown;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.form-block {
+  border: 5px solid #a0a0a0;
+  background: #fff;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+.form-block p {
+  max-width: 60ch;
+  text-align: center;
+}
+
+#nameinput {
+  border: 2px solid pink;
+  background: yellowgreen;
+  padding: 1rem 2rem;
+  color: white;
+  font-size: 2rem;
 }
