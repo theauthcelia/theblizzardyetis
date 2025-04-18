@@ -14,15 +14,7 @@ a {
   margin-top: 0;
   margin-bottom: 1.5rem;
 }
-/*=======*/
-h1,
-h2,
-h3,
-p,
-a {
-  margin-top: 0;
-  margin-bottom: 1.5rem;
-}
+
 p {
   font-size: 1.125rem;
 }
@@ -45,10 +37,14 @@ a:hover {
   text-decoration-color: blue;
   color: blue;
 }
+
+/* Make images responsive */
+
 img {
   max-width: 100%;
   height: auto;
 }
+
 header {
   width: 100vw;
   z-index: 50;
@@ -154,15 +150,11 @@ origin/main .info-graphic {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
-  /*>>>>>>>Stashed changes*/
 }
 p {
   font-size: 1.125rem;
 }
-h1 {
-  font-size: 4rem;
-}
+
 h2 {
   font-size: 4rem;
   font-weight: bold;
@@ -248,7 +240,6 @@ section.card-menu {
 }
 .card {
   width: 40%;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -294,6 +285,7 @@ p,
 h3 {
   padding: 0 5rem;
 }
+/* FORM STYLES */
 
 /*this iz a form*/
 .form {
@@ -315,6 +307,15 @@ h3 {
   max-width: 60ch;
   text-align: center;
 }
+
+#nameinput {
+  border: 2px solid pink;
+  background: yellowgreen;
+  padding: 1rem 2rem;
+  color: white;
+  font-size: 2rem;
+}
+
 /*infographic content*/
 .info-graphic-block {
   display: flex;
@@ -402,4 +403,11 @@ section.hero.index {
   height: auto;
   object-fit: contain;
   max-width: 100%;
+}
+
+/* Weather Styles */
+
+.weather-forecast {
+  border: 10px solid yellowgreen;
+  padding: 1rem;
 }
