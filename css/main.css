@@ -241,6 +241,37 @@ section.hero.visitor-safety {
   background-size: cover;
   position: relative;
 }
+section.card-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1 rem;
+  margin-bottom: 1rem;
+}
+.card.response {
+  background-image: url("../mountain_rescue_img/response.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.card.rescues {
+  background-image: url("../mountain_rescue_img/rescues.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.card-experts {
+  background-image: url("../mountain_rescue_img/expert.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
 main {
   background-color: bisque;
