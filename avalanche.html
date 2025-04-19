@@ -46,7 +46,7 @@
     <section class="hero avalanche">
       <div class="hero-banner">
         <h1>Avalanche Information</h1>
-        <button class="big-button">Donate</button>
+        <button type="submit" class="button-donate">Donate</button>
       </div>
     </section>
     <main>
@@ -60,26 +60,29 @@
             destroy trees, and sweep away anything in their path. Snow
             conditions, temperature changes, and wind can all increase the risk.
           </p>
-
-          <h3>How to Stay Safe ?</h3>
-          <ul>
-            <li>
-              <strong>Check Snow Conditions</strong>– Snowpack stability changes
-              daily, so always assess the terrain before traveling.
-            </li>
-            <li>
-              <strong>Be Weather Aware</strong> – Heavy snowfall, wind, and
-              temperature shifts can increase avalanche risk.
-            </li>
-            <li>
-              <strong>Use Safety Gear</strong> – Essential equipment includes a
-              beacon, probe, and shovel for rescue situations.
-            </li>
-            <li>
-              <strong>Know When to Turn Back</strong> – If conditions seem
-              unsafe, it’s better to change plans than take a risk.
-            </li>
-          </ul>
+          <section class="lists">
+            <div class="one-list">
+              <h3>How to Stay Safe ?</h3>
+              <ul>
+                <li>
+                  <strong>Check Snow Conditions</strong>– Snowpack stability
+                  changes daily, so always assess the terrain before traveling.
+                </li>
+                <li>
+                  <strong>Be Weather Aware</strong> – Heavy snowfall, wind, and
+                  temperature shifts can increase avalanche risk.
+                </li>
+                <li>
+                  <strong>Use Safety Gear</strong> – Essential equipment
+                  includes a beacon, probe, and shovel for rescue situations.
+                </li>
+                <li>
+                  <strong>Know When to Turn Back</strong> – If conditions seem
+                  unsafe, it’s better to change plans than take a risk.
+                </li>
+              </ul>
+            </div>
+          </section>
           <img
             src="mountain_rescue_img/aval-image1.png"
             alt="image of rescuers in the snow waiting for the helicopter"
@@ -93,42 +96,42 @@
           />
           <section class="map-guide">
             <div class="symbol">
-              <img src="https://placehold.co/600x400" alt="" />
+              <img src="mountain_rescue_img/fmd_bad.png" alt="" />
               <p>
                 High risk of avalanches; do not enter without proper training
                 and gear.
               </p>
             </div>
             <div class="symbol">
-              <img src="https://placehold.co/600x400" alt="" />
+              <img src="mountain_rescue_img/location_on.png" alt="" />
               <p>
                 Thin Ice – Frozen surface may not support weight; avoid
                 crossing.
               </p>
             </div>
             <div class="symbol">
-              <img src="https://placehold.co/600x400" alt="" />
+              <img src="mountain_rescue_img/visibility_off.png" alt="" />
               <p>
                 Low Visibility Areas– Fog, snowstorms, or whiteouts reduce
                 sight.
               </p>
             </div>
             <div class="symbol">
-              <img src="https://placehold.co/600x400" alt="" />
+              <img src="mountain_rescue_img/fmd_bad.png" alt="" />
               <p>
                 High risk of avalanches; do not enter without proper training
                 and gear.
               </p>
             </div>
             <div class="symbol">
-              <img src="https://placehold.co/600x400" alt="" />
+              <img src="mountain_rescue_img/location_on.png" alt="" />
               <p>
                 Thin Ice – Frozen surface may not support weight; avoid
                 crossing.
               </p>
             </div>
             <div class="symbol">
-              <img src="https://placehold.co/600x400" alt="" />
+              <img src="mountain_rescue_img/visibility_off.png" alt="" />
               <p>
                 Low Visibility Areas – Fog, snowstorms, or whiteouts reduce
                 sight..
@@ -264,7 +267,7 @@
         <section class="weather-forecast">
           <h2><strong>WEATHER FORECAST</strong></h2>
           <section class="weather-tables">
-            <div class="hour">
+            <div class="righ-now">
               <h3>Sunday, Mar 23th 2025</h3>
               <h4>-10°</h4>
               <p>Light Snow & Cloudy</p>
@@ -273,42 +276,42 @@
             <div class="day">
               <h3>TODAY'S FORECAST</h3>
               <div class="hourly">
-                <div>
+                <div class="one-hour">
                   <p>6:00 AM</p>
                   <img
                     src="mountain_rescue_img/cloudy.png"
                     alt="cloud vector"
                   />
                 </div>
-                <div>
+                <div class="one-hour">
                   <p>9:00 AM</p>
                   <img
                     src="mountain_rescue_img/snowing.png"
                     alt="snow vector"
                   />
                 </div>
-                <div>
+                <div class="one-hour">
                   <p>12:00 PM</p>
                   <img
                     src="mountain_rescue_img/clear_day.png"
                     alt="sun vector"
                   />
                 </div>
-                <div>
+                <div class="one-hour">
                   <p>3:00 PM</p>
                   <img
                     src="mountain_rescue_img/sunny_snowing.png"
                     alt="cloudy-sun vector"
                   />
                 </div>
-                <div>
+                <div class="one-hour">
                   <p>6:00 PM</p>
                   <img
                     src="mountain_rescue_img/mode_dual.png"
                     alt="wet-snow vector"
                   />
                 </div>
-                <div>
+                <div class="one-hour">
                   <p>9:00 PM</p>
                   <img src="mountain_rescue_img/storm.png" alt="wind vector" />
                 </div>
@@ -316,37 +319,39 @@
 
               <div class="air-con">
                 <h3>AIR CONDITION</h3>
-                <div>
-                  <h3>Real feel</h3>
-                  <h3>-5°</h3>
-                </div>
-                <div>
-                  <h3>Chance of snow</h3>
-                  <h3>40%</h3>
-                </div>
-                <div>
-                  <h3>Wind</h3>
-                  <h3>25 km/h</h3>
+                <div class="conditions">
+                  <div class="con">
+                    <h3>Real feel</h3>
+                    <h3>-5°</h3>
+                  </div>
+                  <div class="con">
+                    <h3>Chance of snow</h3>
+                    <h3>40%</h3>
+                  </div>
+                  <div class="con">
+                    <h3>Wind</h3>
+                    <h3>25 km/h</h3>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="week">
-              <div>
+              <div class="one-week">
                 <img src="mountain_rescue_img/cloudy.png" alt="cloud vector" />
                 <p>Cloudy</p>
                 <h3>Mon</h3>
               </div>
-              <div>
+              <div class="one-week">
                 <img src="mountain_rescue_img/clear_day.png" alt="sun vector" />
                 <p>Sunny</p>
                 <h3>Tues</h3>
               </div>
-              <div>
+              <div class="one-week">
                 <img src="mountain_rescue_img/snowing.png" alt="snow vector" />
                 <p>Light Snow</p>
                 <h3>Wed</h3>
               </div>
-              <div>
+              <div class="one-week">
                 <img
                   src="mountain_rescue_img/rainy_light.png"
                   alt="rain vector"
@@ -354,7 +359,7 @@
                 <p>Heavy Rain</p>
                 <h3>Thurs</h3>
               </div>
-              <div>
+              <div class="one-week">
                 <img
                   src="mountain_rescue_img/severe_cold.png"
                   alt="heavy-snow vector"
@@ -362,12 +367,12 @@
                 <p>Heavy Snow</p>
                 <h3>Fri</h3>
               </div>
-              <div>
+              <div class="one-week">
                 <img src="mountain_rescue_img/cloudy.png" alt="cloud vector" />
                 <p>Cloudy</p>
                 <h3>Sat</h3>
               </div>
-              <div>
+              <div class="one-week">
                 <img src="mountain_rescue_img/clear_day.png" alt="sun vector" />
                 <p>Sunny</p>
                 <h3>Sun</h3>
@@ -377,23 +382,30 @@
         </section>
         <!--here ends the tables for the weather forcast that is the same for all-->
         <!--here starts the emergency numbers part that is the same for all-->
-        <section class="emergency">
-          <h2><strong>EMERGENCY CONTACT AND RESOURCES</strong></h2>
+        <section class="centered-content">
+          <h2>EMERGENCY CONTACT AND RESOURCES</h2>
           <h3>
             In case of an avalanche or any other emergency in the backcountry,
-            it’s crucial to act quickly. Always have access to the following
+            it's crucial to act quickly. Always have access to the following
             emergency contacts and resources before venturing out.
           </h3>
           <p>
-            For immediate assistance, call Avalanche Rescue Teams at
-            <u>1-800-123-4567</u>or your local emergency services. In the case
-            of hypothermia, symptoms include shivering, confusion, and slurred
-            speech—seek shelter, warm the body gradually, and contact emergency
-            services immediately. For emergency assistance, you can reach
-            the Avalanche Rescue Team at <u>1-800-123-4567</u> or Mountain
-            Rescue Servicesat <u>1-800-234-5678.</u> For additional support,
-            visit <a href="www.rescue.org"> www.rescue.org</a> for more
-            resources on avalanche safety and mountain emergency preparedness.
+            For immediate assistance, call Avalanche Rescue Teams at
+            <a href="tel:18001234567">1-800-123-4567</a> or your local emergency
+            services.
+          </p>
+          <p>
+            In the case of hypothermia, symptoms include shivering, confusion,
+            and slurred speech—seek shelter, warm the body gradually, and
+            contact emergency services immediately. For emergency assistance,
+            you can reach the Avalanche Rescue Team at
+            <a href="tel:18001234567">1-800-123-4567</a> or Mountain Rescue
+            Services at <a href="tel:18002345678">1-800-234-5678</a>.
+          </p>
+          <p>
+            For additional support, visit
+            <a href="services.html">www.rescue.org</a> or more resources on
+            avalanche safety and mountain emergency preparedness.
           </p>
         </section>
         <!--here ends the emergency numbers part that is the same for all-->
