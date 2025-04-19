@@ -116,35 +116,18 @@ section.lower {
 
 /* BUTTON STYLES */
 
-button {
-  display: inline-flex;
-}
-
 button.big-button {
   width: 25rem;
   height: 5rem;
   padding: 2rem;
   display: flex;
   justify-content: center;
-  background-color: #fffcc0;
-}
-
-button.big-button {
-  width: 25rem;
-  height: 5rem;
-  padding: 2rem;
-  display: flex;
-  justify-content: center;
-  background-color: #fffcc0;
-}
-
-.button-big {
-  background: hotpink;
 }
 
 .button-donate {
-  background: lightblue;
-  width: 10rem;
+  background-color: #fffcc0;
+  height: 4rem;
+  width: 20rem;
   font-size: 1.5rem;
   text-align: center;
   padding: 0.5rem 1rem;
@@ -152,7 +135,7 @@ button.big-button {
   text-transform: uppercase;
 }
 .button-donate:hover {
-  background: hotpink;
+  background: #7676ff;
   color: white;
 }
 
@@ -464,7 +447,6 @@ footer a:hover {
 }
 /*right-box style*/
 .footer-right-box {
-  background-color: #033fd7;
   width: 100%;
   padding-left: 5rem;
   height: 100%;
@@ -483,7 +465,6 @@ footer a:hover {
   gap: 20px;
 }
 .right-items {
-  background-color: #4d8ac8;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -491,8 +472,11 @@ footer a:hover {
 }
 
 /*left-box style*/
+footer .button-donate {
+  width: 70%;
+  height: 4rem;
+}
 .footer-left-box {
-  background-color: #a0a0a0;
   width: 100%;
   height: 100%;
   text-align: right;
@@ -503,7 +487,6 @@ footer a:hover {
   padding-right: 5rem;
 }
 .leftdown {
-  background-color: yellow;
   display: flex;
   flex-direction: column;
   height: 30%;
@@ -511,7 +494,6 @@ footer a:hover {
   justify-content: flex-end;
 }
 .leftup {
-  background-color: green;
   display: flex;
   flex-direction: column;
   height: 70%;
@@ -519,7 +501,6 @@ footer a:hover {
   justify-content: space-between;
 }
 .footer-left-box ul {
-  background-color: #d70303;
   width: 100%;
   display: flex;
   flex-direction: row;
