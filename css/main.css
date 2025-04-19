@@ -260,6 +260,8 @@ section.card-menu {
 main {
   background-color: bisque;
   margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
 main h2,
 p,
@@ -452,6 +454,99 @@ article {
   border: 2px solid black;
   width: 100%;
   padding: 1rem;
+}
+/*-------Weather-----------*/
+.weather-forecast {
+  width: 100%;
+  padding: 3rem;
+  background: cornflowerblue;
+  justify-content: center;
+  align-items: center;
+}
+.weather-tables {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.righ-now {
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+  background-image: url();
+  background: #7676ff;
+  width: 30%;
+  height: 41rem;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.day {
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+
+  background-image: url();
+  background: #fffcc0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  height: 41rem;
+}
+.hourly {
+  background: azure;
+  display: flex;
+  width: 100%;
+
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.one-hour {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  max-width: 7rem;
+}
+.air-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 2rem;
+}
+.conditions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.con {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.week {
+  background: aquamarine;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+.one-week {
+  background: deeppink;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 15rem;
+  max-width: 10rem;
+
+  margin: 1rem;
 }
 
 /*footer-----------*/
