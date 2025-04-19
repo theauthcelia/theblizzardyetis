@@ -280,20 +280,39 @@ h3 {
   flex-direction: row;
   justify-content: space-evenly;
 }
+.form button {
+  background-color: #1831cb;
+  color: white;
+}
 .form-block {
   border: 5px solid #a0a0a0;
   background: #fff;
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
   display: flex;
   justify-content: center;
   width: 40%;
+  height: 25rem;
+  align-items: center;
 }
 .form-block p {
   max-width: 60ch;
   text-align: center;
 }
+.form-block .donation {
+  background-color: #7676ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*volunter form*/
+.form-block .volunteer {
+  background-color: #7676ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+/*donate form */
 label {
   background-color: burlywood;
   display: block;
