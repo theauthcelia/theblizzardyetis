@@ -311,12 +311,44 @@ h3 {
   text-align: center;
 }
 
-#nameinput {
-  border: 2px solid pink;
-  background: yellowgreen;
-  padding: 1rem 2rem;
-  color: white;
-  font-size: 2rem;
+label {
+  background-color: burlywood;
+  display: block;
+  margin-top: 0;
+}
+.payment-form label {
+  background-color: cornflowerblue;
+  display: block;
+}
+input {
+  width: 95%;
+  padding: 0.5rem;
+  border: 1px solid #a0a0a0;
+  background: #e7e7e7;
+}
+select {
+  width: 100%;
+  height: 2rem;
+  border: 1px solid #a0a0a0;
+  background: #e7e7e7;
+}
+.select-feild {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.select-block label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input[type="radio"] {
+  appearance: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  cursor: pointer;
+  border-color: transparent;
 }
 
 /*infographic content*/
@@ -412,31 +444,94 @@ article {
   padding: 1rem;
 }
 
-/*this iz a form*/
-.form {
-  background-color: brown;
+/*footer-----------*/
+footer {
+  color: white;
+  background-image: url(../mountain_rescue_img/footer.png);
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-}
-.form-block {
-  border: 5px solid #a0a0a0;
-  background: #fff;
-  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
-  display: flex;
   justify-content: center;
-  width: 40%;
+  align-items: flex-start;
+  padding: 3rem;
+  height: 20rem;
 }
-.form-block p {
-  max-width: 60ch;
-  text-align: center;
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: rgb(126, 117, 242);
+}
+/*right-box style*/
+.footer-right-box {
+  background-color: #033fd7;
+  width: 100%;
+  padding-left: 5rem;
+  height: 100%;
+}
+.footer-right-box h3 {
+  padding: 0;
+  margin: 0;
+}
+.footer-right-box a {
+  text-decoration: underline;
+}
+.right-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.right-items {
+  background-color: #4d8ac8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.7rem;
 }
 
-#nameinput {
-  border: 2px solid pink;
-  background: yellowgreen;
-  padding: 1rem 2rem;
-  color: white;
-  font-size: 2rem;
+/*left-box style*/
+.footer-left-box {
+  background-color: #a0a0a0;
+  width: 100%;
+  height: 100%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-right: 5rem;
+}
+.leftdown {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  align-items: end;
+  justify-content: flex-end;
+}
+.leftup {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  align-items: end;
+  justify-content: space-between;
+}
+.footer-left-box ul {
+  background-color: #d70303;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 2.813rem;
+}
+
+.horizon-link {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: end;
+  gap: 2.813rem;
 }
