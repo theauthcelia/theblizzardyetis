@@ -19,10 +19,11 @@ p {
 }
 h1 {
   font-size: 4rem;
+  font-weight: bold;
 }
 h2 {
   font-size: 4rem;
-  font-weight: bold;
+  font-weight: 500;
 }
 h3 {
   font-size: 1.5rem;
@@ -274,11 +275,14 @@ h3 {
 }
 
 /*this iz a form*/
+
 .form {
-  background-color: brown;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+.form h2 {
+  font-size: 3.5rem;
 }
 .form button {
   background-color: #1831cb;
@@ -291,46 +295,57 @@ h3 {
   display: flex;
   justify-content: center;
   width: 40%;
-  height: 25rem;
+  height: 35rem;
   align-items: center;
 }
 .form-block p {
   max-width: 60ch;
   text-align: center;
 }
-.form-block .donation {
-  background-color: #7676ff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 /*volunter form*/
 .form-block .volunteer {
-  background-color: #7676ff;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 /*donate form */
+form {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.form-block .donation {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+.form-block .donation h2 {
+  margin: 0;
+}
+
 label {
-  background-color: burlywood;
   display: block;
-  margin-top: 0;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
 }
 .payment-form label {
-  background-color: cornflowerblue;
   display: block;
 }
 input {
-  width: 95%;
+  width: 97.6%;
+  height: 2rem;
   padding: 0.5rem;
   border: 1px solid #a0a0a0;
   background: #e7e7e7;
 }
 select {
   width: 100%;
-  height: 2rem;
+  height: 3rem;
   border: 1px solid #a0a0a0;
   background: #e7e7e7;
 }

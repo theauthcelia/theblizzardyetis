@@ -180,68 +180,83 @@
           </div>
         </section>
       </section>
-      <!----this is a form---->
+      <!------this is a form------>
       <section class="form">
         <!----volunteer---->
-        <section class="volunteer">
-          <h2>Volunteer programs</h2>
-          <p>
-            Join us to make a difference—your volunteer support helps save lives
-            and protect the community.
-          </p>
-          <button class="small-button">JOIN TEAM</button>
+        <section class="form-block">
+          <section class="volunteer">
+            <h2>Volunteer programs</h2>
+            <p>
+              Join us to make a difference—your volunteer support helps save
+              lives and protect the community.
+            </p>
+            <button type="submit" class="button-donate">Join Team</button>
+          </section>
         </section>
+        <section class="form-block">
+          <!----donation---->
+          <section class="donation">
+            <h2>Donate</h2>
+            <form>
+              <div class="name-form">
+                <label for="nameinput">Name</label>
+                <input
+                  type="text"
+                  id="nameinput"
+                  name="Name"
+                  placeholder="Firstname-Lastname"
+                />
+              </div>
 
-        <!----donation---->
-        <section class="donation">
-          <h2>Donate</h2>
-          <form>
-            <div class="name-form">
-              <label for="nameinput">Name</label>
-              <input
-                type="text"
-                id="nameinput"
-                name="Name"
-                placeholder="Firstname-Lastname"
-              />
+              <div class="payment-method">
+                <label for="method">Select payment method</label>
+                <select id="method" name="Payment method">
+                  <option>Visa</option>
+                  <option>Mastercard</option>
+                </select>
+              </div>
+
+              <div class="payment-form">
+                <label>Select amount</label>
+                <div class="select-feild">
+                  <div class="select-block">
+                    <div class="checkbox">
+                      <input type="checkbox" name="amount" />
+                      <label>15$</label>
+                    </div>
+                  </div>
+                  <div class="checkbox">
+                    <input type="checkbox" name="amount" />
+                    <label>50$</label>
+                  </div>
+                  <div class="select-block">
+                    <input type="checkbox" name="amount" />
+                    <label>100$</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="custom-amount">
+                <label for="insertamount">Custom amount</label>
+                <input
+                  type="text"
+                  id="insertamount"
+                  name="Amount:"
+                  placeholder="Enter amount $$"
+                />
+              </div>
+            </form>
+            <div>
+              <p>
+                Your donations empower us to save lives and keep the community
+                safe.
+              </p>
             </div>
-
-            <div class="payment-method">
-              <label for="method">Select payment method</label>
-              <select id="method" name="Payment method">
-                <option>Visa</option>
-                <option>Mastercard</option>
-              </select>
-            </div>
-
-            <div class="payment-form">
-              <label>Select amount</label>
-
-              <label>15$</label>
-              <input type="radio" name="amount" />
-
-              <label>50$</label>
-              <input type="radio" name="amount" />
-
-              <label>100$</label>
-              <input type="radio" name="amount" />
-            </div>
-
-            <div class="custom-amount">
-              <label for="insertamount">Custom amount</label>
-              <input
-                type="text"
-                id="insertamount"
-                name="Amount:"
-                placeholder="Enter amount $$"
-              />
-            </div>
-
-            <button type="submit">DONATE</button>
-          </form>
+            <button type="submit" class="button-donate">Donate</button>
+          </section>
         </section>
       </section>
-      <!----this is end of a form---->
+      <!----this is end of a form------>
     </main>
     <footer>
       <!--footer is same in all pages-->
