@@ -181,7 +181,10 @@ section.hero.index {
   background-size: cover;
   position: relative;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
 section.hero.about {
   max-height: 60vh;
   height: 60vh;
@@ -236,7 +239,10 @@ section.hero.visitor-safety {
   background-size: cover;
   position: relative;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
 /* cards */
 section.card-menu {
   display: flex;
@@ -291,6 +297,39 @@ p,
 h3 {
   padding: 0 5rem;
 }
+<<<<<<< HEAD
+=======
+
+/*this iz a form*/
+.form {
+  background-color: brown;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.form-block {
+  border: 5px solid #a0a0a0;
+  background: #fff;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+.form-block p {
+  max-width: 60ch;
+  text-align: center;
+}
+
+#nameinput {
+  border: 2px solid pink;
+  background: yellowgreen;
+  padding: 1rem 2rem;
+  color: white;
+  font-size: 2rem;
+}
+
+>>>>>>> origin/main
 /*infographic content*/
 .info-graphic-block {
   display: flex;
@@ -355,6 +394,7 @@ h3 {
   object-fit: contain;
   max-width: 100%;
 }
+<<<<<<< HEAD
 article {
   display: flex;
   flex-direction: row;
@@ -412,3 +452,5 @@ article {
   color: white;
   font-size: 2rem;
 }
+=======
+>>>>>>> origin/main
