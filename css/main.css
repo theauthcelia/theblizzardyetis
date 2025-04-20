@@ -125,7 +125,21 @@ button.big-button {
   display: flex;
   justify-content: center;
 }
-
+.small-button {
+  background-color: #1831cb;
+  color: white;
+  height: 4rem;
+  width: fit-content;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border: none;
+  text-transform: uppercase;
+}
+.small-button:hover {
+  background-color: #fffcc0;
+  color: #1831cb;
+}
 .button-donate {
   background-color: #fffcc0;
   height: 4rem;
