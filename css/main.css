@@ -271,11 +271,18 @@ h3 {
   align-items: center;
 }
 .centered-content {
+  text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   padding: 4rem;
+}
+.centered-content h2,
+h3,
+p {
+  padding: 0;
+  width: 90%;
 }
 .body-article {
   padding: 4rem;
@@ -807,20 +814,23 @@ footer .button-donate {
   }
   /*footer-----------*/
   footer {
+    background: linear-gradient(to bottom, rgba(24, 49, 203, 0), #0016a4),
+      url(../mountain_rescue_img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     padding: 2rem;
-    height: 30rem;
+    height: 45rem;
   }
-
   /*right-box style*/
   .footer-right-box {
     width: 70%;
-    padding-left: 0rem;
     height: 100%;
+    padding-left: 0;
   }
-
   .right-items {
     background-color: #7676ff;
     display: flex;
@@ -828,21 +838,18 @@ footer .button-donate {
     justify-content: space-between;
     gap: 0.7rem;
   }
-
   /*left-box style*/
   footer .button-donate {
-    width: 70%;
-    height: 4rem;
+    width: 100%;
+    height: 6.5rem;
   }
   .footer-left-box {
-    width: 100%;
-    height: 100%;
-    text-align: right;
+    height: 80%;
+    text-align: left;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding-right: 5rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 60ch;
   }
   .leftdown {
     display: flex;
@@ -855,23 +862,22 @@ footer .button-donate {
     display: flex;
     flex-direction: column;
     height: 70%;
-    align-items: end;
-    justify-content: space-between;
+    align-items: start;
+
+    gap: 2rem;
   }
   .footer-left-box ul {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-end;
-    gap: 2.813rem;
+    gap: 1rem;
+    padding-top: 2rem;
   }
-
   .horizon-link {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
+    width: 70%;
     align-items: end;
     justify-content: end;
-    gap: 2.813rem;
+    gap: 1rem;
   }
 }
