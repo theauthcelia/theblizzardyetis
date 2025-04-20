@@ -23,7 +23,7 @@ h1 {
 }
 h2 {
   font-size: 4rem;
-  font-weight: 500;
+  font-weight: 700;
 }
 h3 {
   font-size: 1.5rem;
@@ -244,26 +244,29 @@ section.card-menu {
   width: 40%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-start;
   padding: 1rem;
-  margin-bottom: 1rem;
-  margin-right: 1rem;
+  margin: 1rem;
+  color: white;
 }
 .card.response {
-  background-image: url("../mountain_rescue_img/response.png");
+  background: linear-gradient(to top, #1124a0, rgba(24, 49, 203, 0)),
+    url("../mountain_rescue_img/response.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 .card.rescues {
-  background-image: url("../mountain_rescue_img/rescues.png");
+  background: linear-gradient(to top, #1124a0, rgba(24, 49, 203, 0)),
+    url("../mountain_rescue_img/rescues.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 .card.experts {
-  background-image: url("../mountain_rescue_img/expert.png");
+  background: linear-gradient(to top, #1124a0, rgba(24, 49, 203, 0)),
+    url("../mountain_rescue_img/expert.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -784,6 +787,10 @@ footer .button-donate {
   }
   article h2 {
     margin-bottom: 0.5rem;
+  }
+  .threecolumn-content {
+    display: flex;
+    flex-direction: column;
   }
   /*team-member*/
   .teams-block {
