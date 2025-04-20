@@ -731,62 +731,79 @@ footer .button-donate {
   p {
     font-size: 1rem;
   }
-  /*form respon*/
-  .form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    .form h2 {
-      font-size: 1rem;
-    }
-    .form button {
-      background-color: #1831cb;
-      color: white;
-    }
-    .form-block {
-      width: 80%;
-      height: 35rem;
-    }
-    .form-block p {
-      max-width: 40ch;
-    }
-  }
-  /*block-content*/
-  /*infographic content*/
-  .info-graphic-block {
-    display: flex;
-    flex-direction: column;
-
-    width: 90%;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-  }
-
-  .text-block {
+  /*team-member*/
+  .teams-block {
     width: 100%;
-    padding: 1rem;
-    margin-bottom: 1rem;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
-  }
-  .image-block {
-    width: 100%;
-    padding: 1rem;
-    display: flex;
     justify-content: center;
-    align-items: center;
-  }
-  .left-align {
-    display: flex;
-    justify-content: center;
-  }
-  .postcard {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: auto;
+    .team-member {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      width: 70%;
+
+      padding: 0 1rem;
+    }
+
+    /*form respon*/
+    .form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      .form h2 {
+        font-size: 1rem;
+      }
+      .form button {
+        background-color: #1831cb;
+        color: white;
+      }
+      .form-block {
+        width: 80%;
+        height: 35rem;
+      }
+      .form-block p {
+        max-width: 40ch;
+      }
+    }
+    /*block-content*/
+    /*infographic content*/
+    .info-graphic-block {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      margin: 0 auto;
+      margin-bottom: 1rem;
+    }
+
+    .text-block {
+      width: 100%;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .image-block {
+      width: 100%;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .left-align {
+      display: flex;
+      justify-content: center;
+    }
+    .postcard {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+    }
   }
 }
