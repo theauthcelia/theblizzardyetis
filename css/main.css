@@ -452,13 +452,30 @@ article {
 .postcards {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
 }
 .postcard {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  align-items: flex-start;
+  justify-content: center;
+  height: 37rem;
+  border: 1px solid #000;
+  margin: 1.5rem 5rem;
 }
+.postcard .text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  height: 90%;
+  margin: 0;
+}
+.postcard .image-block {
+  height: 100%;
+  padding: 0;
+}
+
 /*News*/
 .news-and-info {
   display: flex;
@@ -704,5 +721,72 @@ footer .button-donate {
 }
 
 /*media quiries*/
-@media (max-width: 600px) {
+@media (max-width: 900px) {
+  h1 {
+    fonr-size: 2rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  /*form respon*/
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    .form h2 {
+      font-size: 1rem;
+    }
+    .form button {
+      background-color: #1831cb;
+      color: white;
+    }
+    .form-block {
+      width: 80%;
+      height: 35rem;
+    }
+    .form-block p {
+      max-width: 40ch;
+    }
+  }
+  /*block-content*/
+  /*infographic content*/
+  .info-graphic-block {
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+
+  .text-block {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-block {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-align {
+    display: flex;
+    justify-content: center;
+  }
+  .postcard {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
 }
