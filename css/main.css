@@ -870,7 +870,6 @@ footer .button-donate {
     padding-left: 0;
   }
   .right-items {
-    background-color: #7676ff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
