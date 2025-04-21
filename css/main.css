@@ -150,6 +150,10 @@ button.big-button {
   border: none;
   text-transform: uppercase;
 }
+.body-article .button-donate {
+  background-color: #1831cb;
+  color: white;
+}
 .button-donate:hover {
   background: #7676ff;
   color: white;
@@ -300,7 +304,7 @@ h3 {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding: 3rem;
+  padding: 2rem;
 }
 .centered-content h2,
 h3,
@@ -626,8 +630,10 @@ input[type="radio"] {
 .week {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
   padding: 1rem;
   margin: 1rem;
 }
@@ -635,11 +641,12 @@ input[type="radio"] {
   background-image: url(../mountain_rescue_img/Weatherimage.png);
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   min-height: 15rem;
-  max-width: 10rem;
-
+  min-width: 5rem;
+  max-width: 11rem;
+  flex: 1 0;
   margin: 1rem;
 }
 
