@@ -150,6 +150,10 @@ button.big-button {
   border: none;
   text-transform: uppercase;
 }
+.body-article .button-donate {
+  background-color: #1831cb;
+  color: white;
+}
 .button-donate:hover {
   background: #7676ff;
   color: white;
