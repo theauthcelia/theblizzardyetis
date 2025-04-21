@@ -153,6 +153,9 @@ button.big-button {
 .body-article .button-donate {
   background-color: #1831cb;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .button-donate:hover {
   background: #7676ff;
