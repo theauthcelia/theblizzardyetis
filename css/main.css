@@ -300,7 +300,7 @@ h3 {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding: 4rem;
+  padding: 3rem;
 }
 .centered-content h2,
 h3,
@@ -315,6 +315,9 @@ article {
   border-radius: 10px;
   display: flex;
   flex-direction: row;
+}
+.history-text {
+  margin-top: 2rem;
 }
 /*--------Hazards map------*/
 .hazzards-map {
