@@ -324,9 +324,14 @@ article {
   flex-direction: row;
 }
 article .text-block {
-  justify-content: flex-start;
+  display: inline-flex; /* instead of flex, for tighter fit */
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+  border-radius: 8px;
 }
-article .text-block h2 {
+article .text-block h2,
+p {
   padding-left: 0;
 }
 
