@@ -378,6 +378,11 @@ p {
   justify-content: flex-start;
   padding: 2rem;
 }
+.counting {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
 
 /*this iz a form*/
 
