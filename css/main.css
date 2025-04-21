@@ -562,6 +562,7 @@ input[type="radio"] {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin: 0 5rem;
 }
 .news-article {
   display: flex;
