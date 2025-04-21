@@ -323,6 +323,13 @@ article {
   display: flex;
   flex-direction: row;
 }
+article .text-block {
+  justify-content: flex-start;
+}
+article .text-block h2 {
+  padding-left: 0;
+}
+
 .history-text {
   margin-top: 2rem;
 }
