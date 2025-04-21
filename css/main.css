@@ -184,7 +184,9 @@ section.hero.about {
   max-height: 60vh;
   height: 60vh;
   margin-bottom: 1rem;
-  background-image: url("../mountain_rescue_img/ab_hero.png");
+  background-image: linear-gradient(to right, #000e69, rgba(24, 49, 203, 0)),
+    url("../mountain_rescue_img/ab_hero.png");
+
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -193,7 +195,8 @@ section.hero.avalanche {
   max-height: 60vh;
   height: 60vh;
   margin-bottom: 1rem;
-  background-image: url("../mountain_rescue_img/aval-hero.png");
+  background-image: linear-gradient(to right, #000e69, rgba(24, 49, 203, 0)),
+    url("../mountain_rescue_img/aval-hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -202,7 +205,8 @@ section.hero.hypothermia {
   max-height: 60vh;
   height: 60vh;
   margin-bottom: 1rem;
-  background-image: url("../mountain_rescue_img/hy-hero.png");
+  background-image: linear-gradient(to right, #000e69, rgba(24, 49, 203, 0)),
+    url("../mountain_rescue_img/hy-hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -211,7 +215,8 @@ section.hero.education {
   max-height: 60vh;
   height: 60vh;
   margin-bottom: 1rem;
-  background-image: url("../mountain_rescue_img/ed-hero.png");
+  background-image: linear-gradient(to right, #000e69, rgba(24, 49, 203, 0)),
+    url("../mountain_rescue_img/ed-hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -220,7 +225,8 @@ section.hero.services {
   max-height: 60vh;
   height: 60vh;
   margin-bottom: 1rem;
-  background-image: url("../mountain_rescue_img/sv_hero.png");
+  background-image: linear-gradient(to right, #000e69, rgba(24, 49, 203, 0)),
+    url("../mountain_rescue_img/sv_hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -229,7 +235,8 @@ section.hero.visitor-safety {
   max-height: 60vh;
   height: 60vh;
   margin-bottom: 1rem;
-  background-image: url("../mountain_rescue_img/vs_hero.png");
+  background-image: linear-gradient(to right, #000e69, rgba(24, 49, 203, 0)),
+    url("../mountain_rescue_img/vs_hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -251,21 +258,21 @@ section.card-menu {
   color: white;
 }
 .card.response {
-  background: linear-gradient(to top, #1124a0, rgba(24, 49, 203, 0)),
+  background: linear-gradient(to top, #000e69, rgba(24, 49, 203, 0)),
     url("../mountain_rescue_img/response.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 .card.rescues {
-  background: linear-gradient(to top, #1124a0, rgba(24, 49, 203, 0)),
+  background: linear-gradient(to top, #000e69, rgba(24, 49, 203, 0)),
     url("../mountain_rescue_img/rescues.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 .card.experts {
-  background: linear-gradient(to top, #1124a0, rgba(24, 49, 203, 0)),
+  background: linear-gradient(to top, #000e69, rgba(24, 49, 203, 0)),
     url("../mountain_rescue_img/expert.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -335,15 +342,18 @@ article {
 
 /*--------lists-----*/
 .lists {
+  width: 95%;
   display: flex;
   flex-direction: row;
-  padding: 1rem;
+}
+.lists strong {
+  font-weight: 700;
+  font-size: 1.1rem;
 }
 .one-list {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
   padding: 2rem;
 }
 
@@ -828,6 +838,46 @@ footer .button-donate {
   }
   .form-block p {
     max-width: 40ch;
+  }
+  /*card menu*/
+  section.card-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .card {
+    width: 60%;
+    min-height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 0rem;
+    color: white;
+  }
+  .card.response {
+    background: linear-gradient(to top, #000e69, rgba(24, 49, 203, 0)),
+      url("../mountain_rescue_img/response.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .card.rescues {
+    background: linear-gradient(to top, #000e69, rgba(24, 49, 203, 0)),
+      url("../mountain_rescue_img/rescues.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .card.experts {
+    background: linear-gradient(to top, #000e69, rgba(24, 49, 203, 0)),
+      url("../mountain_rescue_img/expert.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
   }
 
   /*block-content*/
