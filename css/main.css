@@ -3,7 +3,7 @@
 body {
   font-family: poppins, arial, sans-serif;
   background-color: #fafafa;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 /*=======*/
@@ -15,31 +15,29 @@ p {
   margin-bottom: 1.5rem;
 }
 p {
-  font-size: 1.125rem;
+  font-size: 1.5rem;
 }
 h1 {
   font-size: 4rem;
   font-weight: bold;
 }
 h2 {
-  font-size: 4rem;
-  font-weight: 700;
-}
-h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-h4 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 500;
 }
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 a {
+  font-size: 1.5rem;
   color: blue;
   text-decoration: none;
 }
 a:hover {
-  text-decoration-color: blue;
-  color: blue;
+  text-decoration-color: rgb(87, 93, 255);
+  color: rgb(87, 93, 255);
 }
 img {
   max-width: 100%;
@@ -81,7 +79,6 @@ section.upper p {
   align-items: center;
 }
 .navbar a {
-  font-size: 16px;
   color: black;
 
   padding: 14px 16px;
@@ -95,7 +92,7 @@ section.upper p {
   display: flex;
   flex-direction: row;
 
-  font-size: 16px;
+  font-size: 1.5rem;
   border: none;
   outline: none;
   color: black;
@@ -395,6 +392,7 @@ p {
   justify-content: flex-start;
   padding: 2rem;
 }
+
 .counting {
   display: flex;
   flex-direction: column;
@@ -617,20 +615,30 @@ input[type="radio"] {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  text-align: center;
+}
+.righ-now p {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+.righ-now h2 {
+  font-size: 5rem;
+  font-weight: 500;
 }
 .day {
   display: flex;
   padding: 1rem;
-  margin: 1rem;
+  margin-left: 3rem;
 
   background-image: url(../mountain_rescue_img/Weatherimage.png);
 
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   width: 60%;
   height: 41rem;
 }
+
 .hourly {
   display: flex;
   width: 100%;
@@ -649,11 +657,15 @@ input[type="radio"] {
   max-width: 7rem;
 }
 .air-con {
+  width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  align-items: space-evenly;
+  justify-content: flex-start;
   flex-direction: column;
   padding: 2rem;
+}
+.air-con h3 {
+  margin-left: 3.5rem;
 }
 .conditions {
   display: flex;
@@ -679,13 +691,14 @@ input[type="radio"] {
   background-image: url(../mountain_rescue_img/Weatherimage.png);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   min-height: 15rem;
   min-width: 5rem;
   max-width: 11rem;
   flex: 1 0;
   margin: 1rem;
+  text-align: center;
 }
 
 /*footer-----------*/
@@ -828,15 +841,24 @@ footer .button-donate {
 }
 
 /*media quiries*/
-@media (max-width: 900px) {
+@media (max-width: 80em) {
+  /*----herosection----*/
+  section.hero.services {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  /*-----html thing----*/
   h1 {
     font-size: 2rem;
   }
   h2 {
-    font-size: 2rem;
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 1.5rem;
   }
   p {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   article {
     flex-direction: column;
@@ -850,7 +872,7 @@ footer .button-donate {
     display: flex;
     flex-direction: column;
   }
-  /*team-member*/
+  /*------team-member-----*/
   .teams-block {
     width: 100%;
     display: flex;
@@ -868,7 +890,7 @@ footer .button-donate {
     padding: 0 1rem;
   }
 
-  /*form respon*/
+  /*--------form respon-----*/
   .form {
     display: flex;
     flex-direction: column;
@@ -887,7 +909,7 @@ footer .button-donate {
   .form-block p {
     max-width: 40ch;
   }
-  /*card menu*/
+  /*---------card menu-----*/
   section.card-menu {
     display: flex;
     flex-direction: column;
@@ -928,7 +950,7 @@ footer .button-donate {
     position: relative;
   }
 
-  /*block-content*/
+  /*----block-content-----*/
   /*infographic content*/
   .info-graphic-block {
     display: flex;
@@ -964,7 +986,7 @@ footer .button-donate {
     justify-content: center;
     height: auto;
   }
-  /*footer-----------*/
+  /*---------footer-----------*/
   footer {
     background: linear-gradient(to bottom, rgba(24, 49, 203, 0), #0016a4),
       url(../mountain_rescue_img/footer.png);
