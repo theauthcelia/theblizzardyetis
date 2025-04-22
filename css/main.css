@@ -56,18 +56,22 @@ section.upper p {
   margin: 0;
   padding: 0.5rem 5rem;
 }
-section.lower {
+.lower {
   background-color: #fff;
-  color: black;
+  color: rgb(0, 0, 0);
+  width: 100%;
   display: flex;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
 .navbar {
   overflow: hidden;
   color: #000;
   padding: 14px 16px;
-  display: inline-flex;
-  justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .navbar a {
   font-size: 16px;
@@ -79,7 +83,11 @@ section.lower {
 .subnav {
   overflow: hidden;
 }
-.subnav .subnavbtn {
+.subnavbtn {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
   font-size: 16px;
   border: none;
   outline: none;
@@ -95,16 +103,18 @@ section.lower {
   color: #fff;
 }
 .subnav-content {
-  float: left;
+  padding-right: 7rem;
+  background-color: #ffffff;
+  float: right;
   display: none;
   position: absolute;
-  left: 0;
-  background-color: #fff;
+  right: 0;
   width: 100%;
   z-index: 1;
 }
 .subnav-content a {
-  float: left;
+  background-color: #6272ff;
+  float: right;
   color: black;
   text-decoration: none;
 }
