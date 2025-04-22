@@ -29,6 +29,10 @@ h3 {
   font-size: 1.5rem;
   font-weight: bold;
 }
+h4 {
+  font-size: 4rem;
+  font-weight: 500;
+}
 a {
   color: blue;
   text-decoration: none;
