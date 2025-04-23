@@ -1,6 +1,11 @@
 @import url(reset.css);
 
 body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: poppins, arial, sans-serif;
   background-color: #fafafa;
   font-size: 17px;
