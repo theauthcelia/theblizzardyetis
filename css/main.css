@@ -1060,3 +1060,23 @@ footer .button-donate {
     gap: 1rem;
   }
 }
+@media (max-width: 600px) {
+  .teams-block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+
+  .team-member {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .team-member img {
+    width: 100%;
+    height: auto;
+  }
+}
